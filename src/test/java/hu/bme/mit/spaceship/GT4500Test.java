@@ -42,4 +42,17 @@ public class GT4500Test {
     assertEquals(true, result);
   }
 
+  /*@Test
+  public void fireTorpedo_Secondary_Success() {
+    // Arrange
+    //when(ts1.fire(1)).thenReturn(false);
+    when(ts2.fire(1)).thenReturn(true);
+    // Act
+    boolean result = ship.fireTorpedo(FiringMode.ALL);
+
+    // Assert
+    assertEquals(true, result);
+    verify(ts2, times(1)).fire(1);
+  }*/
+
 }
